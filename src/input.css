@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:hover {
+	background-color: white;
+	font: bold;
+	color: rgb(35, 36, 37);
+	border: 1px solid slategray;
+	transition: 1s ease-in-out;
+}
